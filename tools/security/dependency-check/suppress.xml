@@ -102,13 +102,6 @@
        <cpe>cpe:/a:apache:geronimo:1.1</cpe>
     </suppress>
 
-    <suppress><!-- This concerns the init script in whole Geronimo, OFBiz only uses this class => not concerned. Moreover IBM no longer supports Geronimo so I don't see the point of upgrading as long as it works-->
-       <notes><![CDATA[
-       file name: geronimo-transaction-3.1.1.jar
-       ]]></notes>
-       <sha1>1cfdfcff3cd6a805be401946ab14213b0bad9cb4</sha1>
-       <cpe>cpe:/a:apache:geronimo:3.1.1</cpe>
-    </suppress>
     <suppress>
    <notes><![CDATA[
    file name: geronimo-jaxrpc_1.1_spec-1.0.jar
