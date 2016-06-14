@@ -51,6 +51,7 @@ under the License.
         <if>
             <available file="ivy.xml"/>
             <then>
+                <mkdir dir="${lib.dir}/"/>
                 <ivy:retrieve type="jar,bundle"/>
             </then>
         </if>
